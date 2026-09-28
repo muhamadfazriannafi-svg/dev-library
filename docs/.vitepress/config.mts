@@ -34,6 +34,7 @@ export default defineConfig({
         {
           text: 'Dokumentasi Perintah',
           items: [
+            { text: 'git commit', link: '/git/commit' },
             { text: 'git branch', link: '/git/branch' },
             { text: 'git checkout', link: '/git/checkout' },
             { text: 'git merge', link: '/git/merge' },

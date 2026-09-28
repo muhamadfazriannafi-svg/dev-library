@@ -10,6 +10,7 @@ Alur kerja:
 
 Dokumentasi perintah:
 
+- [git commit](/git/commit) — menyimpan snapshot perubahan.
 - [git branch](/git/branch) — membuat, pindah, dan menghapus branch.
 - [git checkout](/git/checkout) — pindah branch & mengembalikan file.
 - [git merge](/git/merge) — menggabungkan branch dan menyelesaikan konflik.
