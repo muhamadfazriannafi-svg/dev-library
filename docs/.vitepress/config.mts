@@ -3,6 +3,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "DevLibrary",
   description: "Perpustakaan Dokumentasi Kodingan Open Source",
+  // SESUAIKAN DENGAN NAMA REPOSITORY GITHUB-MU:
+  base: '/dev-library/',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
