@@ -9,11 +9,20 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Git', link: '/git/' },
-      { text: 'Golang', link: '/golang/' },
-      { text: 'PHP & Laravel', link: '/php/' },
+      { text: 'GitHub', link: '/github/' },
     ],
 
     sidebar: {
+      '/github/': [
+        {
+          text: 'GitHub',
+          items: [
+            { text: 'Overview', link: '/github/' },
+            { text: 'GitHub Pages', link: '/github/github-pages' },
+            { text: 'GitHub Actions', link: '/github/github-actions' }
+          ]
+        }
+      ],
       '/git/': [
         {
           text: 'Git',
@@ -23,29 +32,11 @@ export default defineConfig({
             { text: 'Undo & Recovery', link: '/git/undo-recovery' }
           ]
         }
-      ],
-      '/golang/': [
-        {
-          text: 'Golang',
-          items: [
-            { text: 'Overview', link: '/golang/' },
-            { text: 'Fiber: Routing & Middleware', link: '/golang/fiber-routing' }
-          ]
-        }
-      ],
-      '/php/': [
-        {
-          text: 'PHP & Laravel',
-          items: [
-            { text: 'Overview', link: '/php/' },
-            { text: 'Laravel: Eager Loading Tips', link: '/php/laravel-eloquent' }
-          ]
-        }
       ]
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/username/dev-library' }
+      { icon: 'github', link: 'https://github.com/muhamadfazriannafi-svg/dev-library' }
     ],
     
     search: {
