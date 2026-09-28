@@ -4,7 +4,22 @@ Selamat datang di rubrik Git. Bagian ini berisi catatan, perintah harian, dan *t
 
 ## Daftar Materi
 
+Alur kerja:
+
 - [Alur Kerja Harian](/git/daily-workflow) — perintah yang paling sering dipakai.
+
+Dokumentasi perintah:
+
+- [git branch](/git/branch) — membuat, pindah, dan menghapus branch.
+- [git checkout](/git/checkout) — pindah branch & mengembalikan file.
+- [git merge](/git/merge) — menggabungkan branch dan menyelesaikan konflik.
+- [git push](/git/push) — mengirim commit ke remote.
+- [git pull](/git/pull) — mengambil perubahan dari remote.
+- [git stash](/git/stash) — menyimpan perubahan sementara.
+- [Fork](/git/fork) — berkontribusi ke repo orang lain.
+
+Lainnya:
+
 - [Undo & Recovery](/git/undo-recovery) — cara membatalkan kesalahan tanpa panik.
 
 ## Konfigurasi Awal
