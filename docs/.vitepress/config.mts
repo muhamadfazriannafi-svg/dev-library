@@ -28,7 +28,8 @@ export default defineConfig({
           text: 'Dasar',
           items: [
             { text: 'Overview', link: '/git/' },
-            { text: 'Alur Kerja Harian', link: '/git/daily-workflow' }
+            { text: 'Alur Kerja Harian', link: '/git/daily-workflow' },
+            { text: 'Membuat Repository', link: '/git/repo' }
           ]
         },
         {

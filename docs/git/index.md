@@ -7,6 +7,7 @@ Selamat datang di rubrik Git. Bagian ini berisi catatan, perintah harian, dan *t
 Alur kerja:
 
 - [Alur Kerja Harian](/git/daily-workflow) — perintah yang paling sering dipakai.
+- [Membuat Repository](/git/repo) — `git init`, `clone`, dan menghubungkan ke GitHub.
 
 Dokumentasi perintah:
 
