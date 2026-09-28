@@ -2,6 +2,17 @@
 
 Keduanya RDBMS dan sama-sama memakai SQL — "sekamar", tapi karakter dan prioritas desainnya berbeda.
 
+## Versi Terbaru
+
+| Produk | Versi current | Status |
+| --- | --- | --- |
+| PostgreSQL | 18.x | 19 masih beta |
+| MySQL | 8.4 LTS / 9.x | 8.4 LTS untuk produksi jangka panjang |
+
+Referensi:
+- PostgreSQL versioning: <https://www.postgresql.org/support/versioning/>
+- MySQL release notes: <https://dev.mysql.com/doc/relnotes/mysql/en/>
+
 ## Ringkasan Perbedaan
 
 | Aspek | MySQL | PostgreSQL |

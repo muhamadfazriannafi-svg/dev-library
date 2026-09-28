@@ -10,9 +10,31 @@ export default defineConfig({
       { text: 'Git', link: '/git/' },
       { text: 'GitHub', link: '/github/' },
       { text: 'Database', link: '/database/' },
+      { text: 'PHP', link: '/php/' },
     ],
 
     sidebar: {
+      '/php/': [
+        {
+          text: 'PHP',
+          items: [
+            { text: 'Overview', link: '/php/' }
+          ]
+        },
+        {
+          text: 'PHP Dasar',
+          items: [
+            { text: 'Sintaks Dasar', link: '/php/dasar/sintaks' },
+            { text: 'Variabel & Tipe Data', link: '/php/dasar/variabel' },
+            { text: 'Operator & Aritmatika', link: '/php/dasar/operator' },
+            { text: 'Kontrol Alur', link: '/php/dasar/kontrol' },
+            { text: 'Array', link: '/php/dasar/array' },
+            { text: 'String', link: '/php/dasar/string' },
+            { text: 'Function', link: '/php/dasar/function' },
+            { text: 'OOP', link: '/php/dasar/oop' }
+          ]
+        }
+      ],
       '/database/': [
         {
           text: 'Database',

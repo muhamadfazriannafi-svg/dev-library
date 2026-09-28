@@ -19,6 +19,20 @@ Keduanya bukan saingan — pilih sesuai kebutuhan:
 
 Halaman perbandingan engine SQL: [MySQL vs PostgreSQL](/database/sql/mysql-postgresql).
 
+## Versi Terbaru (tech stack)
+
+| Produk | Versi current | Catatan |
+| --- | --- | --- |
+| **PostgreSQL** | 18.x | 19 masih beta; 14 berakhir dukungan Nov 2026 |
+| **MongoDB** | 8.3 | stabil terbaru, lanjut dari 8.0 dan 7.0 |
+| **MySQL** | 8.4 LTS / 9.x | 8.4 LTS untuk produksi jangka panjang |
+
+Cek berkala karena rilisnya cepat:
+
+- PostgreSQL: <https://www.postgresql.org/support/versioning/>
+- MongoDB: <https://www.mongodb.com/docs/manual/release-notes/>
+- MySQL: <https://dev.mysql.com/doc/relnotes/mysql/en/>
+
 ## Best Practices
 
 - [Konvensi Penamaan Tabel](/database/best-practices/naming) — suffix `_m` (master) dan `_t` (transaksi).

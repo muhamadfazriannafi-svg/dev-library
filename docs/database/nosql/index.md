@@ -11,6 +11,10 @@ NoSQL = "not only SQL". Basis data yang tidak memakai model tabel/relasi ketat. 
 | **Column-family** | kolom lebar terdistribusi | Cassandra, HBase |
 | **Graph** | node & relasi | Neo4j |
 
+## Versi Terbaru
+
+MongoDB stabil terbaru: **8.3**. Lihat [MongoDB](/database/nosql/mongodb) untuk tautan rilis.
+
 ## Karakteristik
 
 - **Skema fleksibel** — tiap dokumen bisa punya bentuk berbeda.

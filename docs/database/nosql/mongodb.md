@@ -2,6 +2,13 @@
 
 Basis data *document-oriented*: data disimpan sebagai dokumen mirip JSON (sebenarnya BSON) di dalam *collection*.
 
+## Versi Terbaru
+
+Versi stabil terbaru adalah **MongoDB 8.3**, melanjutkan seri 8.0 dan 7.0.
+
+Rilis & catatan: <https://www.mongodb.com/docs/manual/release-notes/>
+Aturan versi: <https://www.mongodb.com/docs/manual/reference/versioning/>
+
 ## Istilah
 
 | SQL | MongoDB |
