@@ -22,6 +22,7 @@ Halaman perbandingan engine SQL: [MySQL vs PostgreSQL](/database/sql/mysql-postg
 ## Best Practices
 
 - [Konvensi Penamaan Tabel](/database/best-practices/naming) — suffix `_m` (master) dan `_t` (transaksi).
+- [User, Role & Hak Akses](/database/best-practices/access-control) — RBAC: user, role, dan permission.
 
 ## Daftar Materi
 

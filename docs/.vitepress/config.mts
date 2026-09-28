@@ -18,7 +18,8 @@ export default defineConfig({
           text: 'Database',
           items: [
             { text: 'Overview', link: '/database/' },
-            { text: 'Konvensi Penamaan', link: '/database/best-practices/naming' }
+            { text: 'Konvensi Penamaan', link: '/database/best-practices/naming' },
+            { text: 'User, Role & Hak Akses', link: '/database/best-practices/access-control' }
           ]
         },
         {
