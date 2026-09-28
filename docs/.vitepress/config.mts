@@ -18,8 +18,7 @@ export default defineConfig({
           text: 'Database',
           items: [
             { text: 'Overview', link: '/database/' },
-            { text: 'Konvensi Penamaan', link: '/database/best-practices/naming' },
-            { text: 'User, Role & Hak Akses', link: '/database/best-practices/access-control' }
+            { text: 'Konvensi Penamaan', link: '/database/best-practices/naming' }
           ]
         },
         {
@@ -27,13 +26,16 @@ export default defineConfig({
           items: [
             { text: 'Konsep SQL', link: '/database/sql/' },
             { text: 'SELECT', link: '/database/sql/select' },
+            { text: 'GROUP BY & Agregasi', link: '/database/sql/group-by' },
             { text: 'INSERT / UPDATE / DELETE', link: '/database/sql/dml' },
             { text: 'JOIN', link: '/database/sql/join' },
             { text: 'Subquery', link: '/database/sql/subquery' },
             { text: 'CTE', link: '/database/sql/cte' },
             { text: 'Indexing', link: '/database/sql/indexing' },
             { text: 'Foreign Key', link: '/database/sql/foreign-key' },
+            { text: 'Sequence', link: '/database/sql/sequence' },
             { text: 'Soft Delete', link: '/database/sql/soft-delete' },
+            { text: 'User & Hak Akses', link: '/database/sql/users-privileges' },
             { text: 'MySQL vs PostgreSQL', link: '/database/sql/mysql-postgresql' }
           ]
         },

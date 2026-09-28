@@ -33,11 +33,14 @@ Poin penting: `WHERE` menyaring **sebelum** agregasi, `HAVING` menyaring **sesud
 ## Daftar Materi
 
 - [SELECT](/database/sql/select)
+- [GROUP BY & Agregasi](/database/sql/group-by)
 - [INSERT, UPDATE, DELETE](/database/sql/dml)
 - [JOIN](/database/sql/join)
 - [Subquery](/database/sql/subquery)
 - [CTE](/database/sql/cte)
 - [Indexing](/database/sql/indexing)
 - [Foreign Key](/database/sql/foreign-key)
+- [Sequence](/database/sql/sequence)
 - [Soft Delete](/database/sql/soft-delete)
+- [User & Hak Akses](/database/sql/users-privileges)
 - [MySQL vs PostgreSQL](/database/sql/mysql-postgresql)

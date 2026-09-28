@@ -43,6 +43,8 @@ SELECT DISTINCT status FROM orders_t;
 
 ## Agregasi & GROUP BY
 
+Ringkasnya: `GROUP BY` mengelompokkan baris, fungsi agregat merangkum tiap kelompok.
+
 ```sql
 SELECT status, COUNT(*) AS jumlah, SUM(total) AS omzet
 FROM orders_t
@@ -51,7 +53,7 @@ HAVING COUNT(*) > 5
 ORDER BY jumlah DESC;
 ```
 
-Fungsi agregat: `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`.
+Fungsi agregat: `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`. Pembahasan lengkap, `HAVING` vs `WHERE`, dan `ROLLUP` ada di [GROUP BY & Agregasi](/database/sql/group-by).
 
 ::: warning
 Semua kolom di `SELECT` yang bukan fungsi agregat **wajib** muncul di `GROUP BY`.
