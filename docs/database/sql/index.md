@@ -40,6 +40,7 @@ Poin penting: `WHERE` menyaring **sebelum** agregasi, `HAVING` menyaring **sesud
 - [CTE](/database/sql/cte)
 - [Indexing](/database/sql/indexing)
 - [Foreign Key](/database/sql/foreign-key)
+- [View](/database/sql/view)
 - [Sequence](/database/sql/sequence)
 - [Soft Delete](/database/sql/soft-delete)
 - [User & Hak Akses](/database/sql/users-privileges)

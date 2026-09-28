@@ -33,6 +33,7 @@ export default defineConfig({
             { text: 'CTE', link: '/database/sql/cte' },
             { text: 'Indexing', link: '/database/sql/indexing' },
             { text: 'Foreign Key', link: '/database/sql/foreign-key' },
+            { text: 'View', link: '/database/sql/view' },
             { text: 'Sequence', link: '/database/sql/sequence' },
             { text: 'Soft Delete', link: '/database/sql/soft-delete' },
             { text: 'User & Hak Akses', link: '/database/sql/users-privileges' },
