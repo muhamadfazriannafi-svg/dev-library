@@ -4,22 +4,23 @@ layout: home
 
 hero:
   name: "DevLibrary"
-  text: "Open Source Code Documentation & Knowledge Base"
-  tagline: My great project tagline
+  text: "Programmer Sejak 2022"
+  tagline: "Catatan perjalanan belajar ngoding dari Januari 2022 sampai sekarang."
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Mulai dari Git
+      link: /git/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: GitHub
+      link: /github/
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Git
+    details: Alur kerja harian, perintah dasar, branch, merge, sampai undo & recovery.
+  - title: GitHub
+    details: Fork, pull request, GitHub Pages, dan otomasi CI/CD dengan GitHub Actions.
+  - title: Golang
+    details: Catatan Go dan framework Fiber. Menyusul.
+  - title: PHP & Laravel
+    details: Tips Eloquent dan ekosistem Laravel. Menyusul.
 ---
-
