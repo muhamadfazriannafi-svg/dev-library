@@ -25,4 +25,6 @@ features:
     details: PHP dasar dari sintaks, variabel, operator, array, sampai OOP.
   - title: Laravel
     details: Routing, Eloquent, repository pattern, queue & job, scheduler, Telescope, dan keamanan SQL injection.
+  - title: Vue
+    details: Reaktivitas, component, Composition API, Vue Router, dan Pinia.
 ---

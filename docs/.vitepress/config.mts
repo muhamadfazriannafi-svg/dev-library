@@ -11,10 +11,51 @@ export default defineConfig({
       { text: 'GitHub', link: '/github/' },
       { text: 'Database', link: '/database/' },
       { text: 'PHP', link: '/php/' },
-      { text: 'Laravel', link: '/laravel/' },
+      {
+        text: 'Framework',
+        items: [
+          {
+            text: 'Backend',
+            items: [
+              { text: 'Laravel', link: '/laravel/' }
+            ]
+          },
+          {
+            text: 'Frontend',
+            items: [
+              { text: 'Vue', link: '/vue/' }
+            ]
+          }
+        ]
+      },
     ],
 
     sidebar: {
+      '/vue/': [
+        {
+          text: 'Vue',
+          items: [
+            { text: 'Overview', link: '/vue/' }
+          ]
+        },
+        {
+          text: 'Vue Dasar',
+          items: [
+            { text: 'Reaktivitas', link: '/vue/dasar/reaktivitas' },
+            { text: 'Template & Binding', link: '/vue/dasar/template' },
+            { text: 'Direktif', link: '/vue/dasar/direktif' },
+            { text: 'Component', link: '/vue/dasar/component' },
+            { text: 'Composition API', link: '/vue/dasar/composition' }
+          ]
+        },
+        {
+          text: 'Ekosistem',
+          items: [
+            { text: 'Vue Router', link: '/vue/router' },
+            { text: 'Pinia', link: '/vue/pinia' }
+          ]
+        }
+      ],
       '/laravel/': [
         {
           text: 'Laravel',
