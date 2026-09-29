@@ -23,7 +23,8 @@ export default defineConfig({
           {
             text: 'Frontend',
             items: [
-              { text: 'Vue', link: '/vue/' }
+              { text: 'Vue', link: '/vue/' },
+              { text: 'Nuxt', link: '/nuxt/' }
             ]
           }
         ]
@@ -31,6 +32,20 @@ export default defineConfig({
     ],
 
     sidebar: {
+      '/nuxt/': [
+        {
+          text: 'Nuxt',
+          items: [
+            { text: 'Overview', link: '/nuxt/' }
+          ]
+        },
+        {
+          text: 'Template',
+          items: [
+            { text: 'Pug di Nuxt', link: '/nuxt/pug' }
+          ]
+        }
+      ],
       '/vue/': [
         {
           text: 'Vue',

@@ -27,4 +27,6 @@ features:
     details: Routing, Eloquent, repository pattern, queue & job, scheduler, Telescope, dan keamanan SQL injection.
   - title: Vue
     details: Reaktivitas, component, Composition API, Vue Router, dan Pinia.
+  - title: Nuxt
+    details: Framework Vue full-stack, routing otomatis, SSR, dan Pug.
 ---
