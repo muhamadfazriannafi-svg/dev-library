@@ -11,9 +11,47 @@ export default defineConfig({
       { text: 'GitHub', link: '/github/' },
       { text: 'Database', link: '/database/' },
       { text: 'PHP', link: '/php/' },
+      { text: 'Laravel', link: '/laravel/' },
     ],
 
     sidebar: {
+      '/laravel/': [
+        {
+          text: 'Laravel',
+          items: [
+            { text: 'Overview', link: '/laravel/' }
+          ]
+        },
+        {
+          text: 'Dasar',
+          items: [
+            { text: 'Routing, Controller, View, Migration', link: '/laravel/basic/routing' },
+            { text: 'Eloquent ORM', link: '/laravel/eloquent' }
+          ]
+        },
+        {
+          text: 'Arsitektur',
+          items: [
+            { text: 'Modular', link: '/laravel/arsitektur/modular' },
+            { text: 'Repository Pattern', link: '/laravel/arsitektur/repository' }
+          ]
+        },
+        {
+          text: 'Asynchronous',
+          items: [
+            { text: 'Queue', link: '/laravel/async/queue' },
+            { text: 'Job', link: '/laravel/async/job' },
+            { text: 'Scheduler', link: '/laravel/async/scheduler' }
+          ]
+        },
+        {
+          text: 'Debugging & Keamanan',
+          items: [
+            { text: 'Laravel Telescope', link: '/laravel/telescope' },
+            { text: 'SQL Injection', link: '/laravel/security/sql-injection' }
+          ]
+        }
+      ],
       '/php/': [
         {
           text: 'PHP',

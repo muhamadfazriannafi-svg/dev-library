@@ -24,5 +24,5 @@ features:
   - title: PHP
     details: PHP dasar dari sintaks, variabel, operator, array, sampai OOP.
   - title: Laravel
-    details: Tips Eloquent dan ekosistem Laravel. Menyusul.
+    details: Routing, Eloquent, repository pattern, queue & job, scheduler, Telescope, dan keamanan SQL injection.
 ---
