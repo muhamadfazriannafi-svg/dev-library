@@ -37,6 +37,10 @@ Cek berkala karena rilisnya cepat:
 
 - [Konvensi Penamaan Tabel](/database/best-practices/naming) — suffix `_m` (master) dan `_t` (transaksi).
 
+## Performance & Debugging
+
+- [N+1 Query Problem](/database/performance/n-plus-one) — kenapa query bisa meledak dan cara mengatasinya.
+
 ## Daftar Materi
 
 Pilih materi SQL atau NoSQL di sidebar.

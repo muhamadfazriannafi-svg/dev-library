@@ -68,6 +68,12 @@ export default defineConfig({
             { text: 'Konsep NoSQL', link: '/database/nosql/' },
             { text: 'MongoDB', link: '/database/nosql/mongodb' }
           ]
+        },
+        {
+          text: 'Performance & Debugging',
+          items: [
+            { text: 'N+1 Query Problem', link: '/database/performance/n-plus-one' }
+          ]
         }
       ],
       '/github/': [
