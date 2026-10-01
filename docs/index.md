@@ -29,4 +29,8 @@ features:
     details: Reaktivitas, component, Composition API, Vue Router, dan Pinia.
   - title: Nuxt
     details: Framework Vue full-stack, routing otomatis, SSR, dan Pug.
+  - title: Go
+    details: Instalasi, dasar sintaks, sampai goroutine dan channel.
+  - title: Express
+    details: Framework Node.js minimalis untuk routing dan middleware.
 ---

@@ -11,13 +11,15 @@ export default defineConfig({
       { text: 'GitHub', link: '/github/' },
       { text: 'Database', link: '/database/' },
       { text: 'PHP', link: '/php/' },
+      { text: 'Go', link: '/golang/' },
       {
         text: 'Framework',
         items: [
           {
             text: 'Backend',
             items: [
-              { text: 'Laravel', link: '/laravel/' }
+              { text: 'Laravel', link: '/laravel/' },
+              { text: 'Express', link: '/express/' }
             ]
           },
           {
@@ -32,6 +34,26 @@ export default defineConfig({
     ],
 
     sidebar: {
+      '/golang/': [
+        {
+          text: 'Go',
+          items: [
+            { text: 'Overview', link: '/golang/' },
+            { text: 'Instalasi & Setup', link: '/golang/instalasi' },
+            { text: 'Dasar & Sintaks', link: '/golang/dasar' }
+          ]
+        }
+      ],
+      '/express/': [
+        {
+          text: 'Express',
+          items: [
+            { text: 'Overview', link: '/express/' },
+            { text: 'Instalasi & Setup', link: '/express/instalasi' },
+            { text: 'Routing & Middleware', link: '/express/routing' }
+          ]
+        }
+      ],
       '/nuxt/': [
         {
           text: 'Nuxt',
