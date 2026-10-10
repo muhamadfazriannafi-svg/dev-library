@@ -30,7 +30,16 @@ go run ./examples/golang/fungsi/main.go
 | `inferensi-tipe` | Inferensi Tipe | tipe disimpulkan |
 | `konstanta` | Konstanta | `const` |
 | `konstanta-numerik` | Konstanta Numerik | presisi tinggi, overflow `int` |
+| `rangkuman-dasar` | Rangkuman | seluruh materi bab Dasar dalam satu file berkomentar |
 
 ## Catatan
 
 Beberapa contoh menyertakan baris yang sengaja dikomentari (mis. `math.pi`, `needInt(Big)`) karena akan menghasilkan error. Buka komentarnya untuk melihat pesan kesalahannya.
+
+## Rangkuman Bab
+
+`rangkuman-dasar/main.go` menggabungkan seluruh topik bab Dasar (paket, import, nama ekspor, fungsi, variabel, konstanta, tipe, nilai kosong, konversi, inferensi) dalam satu program berkomentar:
+
+```bash
+go run ./examples/golang/rangkuman-dasar/main.go
+```

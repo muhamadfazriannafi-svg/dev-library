@@ -49,6 +49,7 @@ Catatan ini disusun mengikuti [Tur Go](https://go.dev/tour/).
 - [Inferensi Tipe](/golang/inferensi-tipe) — tipe disimpulkan dari nilai
 - [Konstanta](/golang/konstanta) — deklarasi `const`
 - [Konstanta Numerik](/golang/konstanta-numerik) — presisi tinggi & konstanta tak bertipe
+- [Rangkuman Bab Dasar](/golang/rangkuman-dasar) — semua materi dalam satu program berkomentar
 - [Quiz: Dasar](/golang/quiz-dasar) — uji pemahaman bab Dasar
 
 ## Referensi

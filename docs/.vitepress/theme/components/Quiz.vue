@@ -1,12 +1,32 @@
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 
 const props = defineProps({
-  questions: { type: Array, required: true }
+  questions: { type: Array, required: true },
+  count: { type: Number, default: 0 }
 })
 
-const selected = ref(props.questions.map(() => -1))
+const shown = ref([])
+const selected = ref([])
 const submitted = ref(false)
+
+function shuffle(arr) {
+  const a = [...arr]
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[a[i], a[j]] = [a[j], a[i]]
+  }
+  return a
+}
+
+function pick() {
+  const n = props.count > 0 ? Math.min(props.count, props.questions.length) : props.questions.length
+  shown.value = shuffle(props.questions).slice(0, n)
+  selected.value = shown.value.map(() => -1)
+  submitted.value = false
+}
+
+onMounted(pick)
 
 function choose(qIndex, optIndex) {
   if (submitted.value) return
@@ -16,9 +36,9 @@ function choose(qIndex, optIndex) {
 }
 
 const answeredCount = computed(() => selected.value.filter((s) => s !== -1).length)
-const allAnswered = computed(() => answeredCount.value === props.questions.length)
+const allAnswered = computed(() => shown.value.length > 0 && answeredCount.value === shown.value.length)
 const score = computed(() =>
-  props.questions.reduce((acc, q, i) => (selected.value[i] === q.answer ? acc + 1 : acc), 0)
+  shown.value.reduce((acc, q, i) => (selected.value[i] === q.answer ? acc + 1 : acc), 0)
 )
 
 function submit() {
@@ -26,13 +46,12 @@ function submit() {
 }
 
 function reset() {
-  selected.value = props.questions.map(() => -1)
-  submitted.value = false
+  pick()
 }
 
 function optionClass(qIndex, optIndex) {
   if (!submitted.value) return { selected: selected.value[qIndex] === optIndex }
-  const q = props.questions[qIndex]
+  const q = shown.value[qIndex]
   return {
     correct: optIndex === q.answer,
     wrong: selected.value[qIndex] === optIndex && optIndex !== q.answer
@@ -42,7 +61,9 @@ function optionClass(qIndex, optIndex) {
 
 <template>
   <div class="quiz">
-    <div v-for="(q, qi) in questions" :key="qi" class="quiz-item">
+    <p v-if="shown.length === 0" class="quiz-loading">Memuat soal...</p>
+
+    <div v-for="(q, qi) in shown" :key="qi" class="quiz-item">
       <p class="quiz-question">{{ qi + 1 }}. {{ q.question }}</p>
       <ul class="quiz-options">
         <li
@@ -60,17 +81,17 @@ function optionClass(qIndex, optIndex) {
       </p>
     </div>
 
-    <div class="quiz-footer">
+    <div v-if="shown.length > 0" class="quiz-footer">
       <span v-if="!submitted" class="quiz-progress">
-        Terjawab {{ answeredCount }}/{{ questions.length }}
+        Terjawab {{ answeredCount }}/{{ shown.length }}
       </span>
       <span v-else class="quiz-score">
-        Skor: {{ score }}/{{ questions.length }} ({{ Math.round((score / questions.length) * 100) }}%)
+        Skor: {{ score }}/{{ shown.length }} ({{ Math.round((score / shown.length) * 100) }}%)
       </span>
       <button v-if="!submitted" class="quiz-btn" :disabled="!allAnswered" @click="submit">
         Periksa Jawaban
       </button>
-      <button v-else class="quiz-btn" @click="reset">Ulangi</button>
+      <button v-else class="quiz-btn" @click="reset">Soal Baru</button>
     </div>
   </div>
 </template>
@@ -82,6 +103,10 @@ function optionClass(qIndex, optIndex) {
   padding: 20px 24px;
   margin: 24px 0;
   background: var(--vp-c-bg-soft);
+}
+.quiz-loading {
+  font-weight: 600;
+  color: var(--vp-c-text-2);
 }
 .quiz-item + .quiz-item {
   margin-top: 24px;
