@@ -36,11 +36,21 @@ export default defineConfig({
     sidebar: {
       '/golang/': [
         {
-          text: 'Go',
+          text: 'Tur Go',
           items: [
             { text: 'Overview', link: '/golang/' },
-            { text: 'Instalasi & Setup', link: '/golang/instalasi' },
-            { text: 'Dasar & Sintaks', link: '/golang/dasar' }
+            { text: 'Selamat Datang', link: '/golang/selamat-datang' },
+            { text: 'Go Playground', link: '/golang/go-playground' }
+          ]
+        },
+        {
+          text: 'Dasar',
+          items: [
+            { text: 'Paket', link: '/golang/paket' },
+            { text: 'Import', link: '/golang/import' },
+            { text: 'Nama yang Diekspor', link: '/golang/nama-ekspor' },
+            { text: 'Fungsi', link: '/golang/fungsi' },
+            { text: 'Variabel', link: '/golang/variabel' }
           ]
         }
       ],

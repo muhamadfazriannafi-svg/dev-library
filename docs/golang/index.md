@@ -19,7 +19,6 @@ func main() {
 - **Konkurensi bawaan** — goroutine & channel.
 - **Binary tunggal** — hasil build tidak butuh runtime tambahan.
 - **Standard library lengkap** — HTTP server sudah ada di `net/http`.
-- **Dokumentasi**: <https://go.dev/doc/>
 
 ## Versi Terbaru
 
@@ -32,16 +31,21 @@ Rilis & catatan perubahan: <https://go.dev/doc/devel/release>
 
 ## Daftar Materi
 
-- [Instalasi & Setup](/golang/instalasi) — pasang Go di Windows/macOS/Linux
-- [Dasar & Sintaks](/golang/dasar) — variabel, tipe, kontrol alur, function
+Catatan ini disusun mengikuti [Tur Go](https://go.dev/tour/).
 
-## Ekosistem
+- [Selamat Datang](/golang/selamat-datang) — mengenal Tur Go, menjalankan tur secara lokal, dan program pertama
+- [Go Playground](/golang/go-playground) — sandbox online beserta batasannya
 
-| Perkakas | Fungsi | Tautan |
-| --- | --- | --- |
-| `go` tool | build, run, test, modul | <https://pkg.go.dev/cmd/go> |
-| Gin | web framework populer | <https://gin-gonic.com/> |
-| Fiber | web framework cepat | <https://gofiber.io/> |
-| Echo | web framework minimalis | <https://echo.labstack.com/> |
-| GORM | ORM database | <https://gorm.io/> |
-| Cobra | framework CLI | <https://cobra.dev/> |
+### Dasar
+
+- [Paket (Package)](/golang/paket) — struktur paket, `package main`, dan `import`
+- [Import](/golang/import) — import yang difaktorkan
+- [Nama yang Diekspor](/golang/nama-ekspor) — huruf besar vs huruf kecil
+- [Fungsi](/golang/fungsi) — parameter, tipe digabung, banyak kembalian, kembalian bernama
+- [Variabel](/golang/variabel) — deklarasi `var` dan inisialisasi
+
+## Referensi
+
+- Tur bahasa: <https://go.dev/tour/>
+- Effective Go: <https://go.dev/doc/effective_go>
+- Dokumentasi: <https://go.dev/doc/>
