@@ -60,6 +60,17 @@ export default defineConfig({
             { text: 'Rangkuman Dasar', link: '/golang/rangkuman-dasar' },
             { text: 'Quiz: Dasar', link: '/golang/quiz-dasar' }
           ]
+        },
+        {
+          text: 'Kontrol Alur',
+          items: [
+            { text: 'Pengulangan (for)', link: '/golang/for' },
+            { text: 'Pengulangan Lanjutan', link: '/golang/for-lanjutan' },
+            { text: 'for adalah while', link: '/golang/for-while' },
+            { text: 'Pengulangan Selamanya', link: '/golang/for-forever' },
+            { text: 'Kondisi (if)', link: '/golang/if' },
+            { text: 'if dan else', link: '/golang/if-else' }
+          ]
         }
       ],
       '/express/': [

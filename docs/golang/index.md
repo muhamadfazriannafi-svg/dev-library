@@ -52,6 +52,15 @@ Catatan ini disusun mengikuti [Tur Go](https://go.dev/tour/).
 - [Rangkuman Bab Dasar](/golang/rangkuman-dasar) — semua materi dalam satu program berkomentar
 - [Quiz: Dasar](/golang/quiz-dasar) — uji pemahaman bab Dasar
 
+### Kontrol Alur
+
+- [Pengulangan (for)](/golang/for) — satu-satunya perintah pengulangan di Go
+- [Pengulangan Lanjutan](/golang/for-lanjutan) — bentuk `while` dan loop tak terbatas
+- [for adalah "while"](/golang/for-while) — padanan while pada bahasa C
+- [Pengulangan Selamanya](/golang/for-forever) — `for { }` dan keluar dengan `break`/`return`
+- [Kondisi (if)](/golang/if) — tanpa tanda kurung, kurawal wajib
+- [if dan else](/golang/if-else) — skop variabel dari perintah singkat `if`
+
 ## Referensi
 
 - Tur bahasa: <https://go.dev/tour/>
