@@ -33,7 +33,7 @@ Keluaran:
 ```text
 21
 0.2
-1.2676506002282294e+30
+1.2676506002282295e+29
 ```
 
 ## Konstanta Tak Bertipe

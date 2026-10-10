@@ -3,3 +3,6 @@ docs/.vitepress/dist/
 docs/.vitepress/cache/
 *.log
 .DS_Store
+
+# Go
+examples/golang/**/*.exe

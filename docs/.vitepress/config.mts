@@ -56,7 +56,8 @@ export default defineConfig({
             { text: 'Konversi Tipe', link: '/golang/konversi-tipe' },
             { text: 'Inferensi Tipe', link: '/golang/inferensi-tipe' },
             { text: 'Konstanta', link: '/golang/konstanta' },
-            { text: 'Konstanta Numerik', link: '/golang/konstanta-numerik' }
+            { text: 'Konstanta Numerik', link: '/golang/konstanta-numerik' },
+            { text: 'Quiz: Dasar', link: '/golang/quiz-dasar' }
           ]
         }
       ],
