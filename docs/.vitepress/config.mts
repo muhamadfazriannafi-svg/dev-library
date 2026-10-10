@@ -50,7 +50,13 @@ export default defineConfig({
             { text: 'Import', link: '/golang/import' },
             { text: 'Nama yang Diekspor', link: '/golang/nama-ekspor' },
             { text: 'Fungsi', link: '/golang/fungsi' },
-            { text: 'Variabel', link: '/golang/variabel' }
+            { text: 'Variabel', link: '/golang/variabel' },
+            { text: 'Tipe Dasar', link: '/golang/tipe-dasar' },
+            { text: 'Nilai Kosong', link: '/golang/nilai-kosong' },
+            { text: 'Konversi Tipe', link: '/golang/konversi-tipe' },
+            { text: 'Inferensi Tipe', link: '/golang/inferensi-tipe' },
+            { text: 'Konstanta', link: '/golang/konstanta' },
+            { text: 'Konstanta Numerik', link: '/golang/konstanta-numerik' }
           ]
         }
       ],

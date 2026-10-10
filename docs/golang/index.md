@@ -43,6 +43,12 @@ Catatan ini disusun mengikuti [Tur Go](https://go.dev/tour/).
 - [Nama yang Diekspor](/golang/nama-ekspor) — huruf besar vs huruf kecil
 - [Fungsi](/golang/fungsi) — parameter, tipe digabung, banyak kembalian, kembalian bernama
 - [Variabel](/golang/variabel) — deklarasi `var` dan inisialisasi
+- [Tipe Dasar](/golang/tipe-dasar) — bool, string, numerik, byte, rune, dsb.
+- [Nilai Kosong](/golang/nilai-kosong) — `zero value` untuk setiap tipe
+- [Konversi Tipe](/golang/konversi-tipe) — `T(v)` dan konversi eksplisit
+- [Inferensi Tipe](/golang/inferensi-tipe) — tipe disimpulkan dari nilai
+- [Konstanta](/golang/konstanta) — deklarasi `const`
+- [Konstanta Numerik](/golang/konstanta-numerik) — presisi tinggi & konstanta tak bertipe
 
 ## Referensi
 

@@ -72,4 +72,38 @@ func main() {
 Untuk deklarasi singkat di dalam fungsi, gunakan `:=` (mis. `nama := "Go"`). Bentuk ini tidak berlaku di tingkat paket.
 :::
 
-Referensi: <https://go.dev/tour/basics/9>
+## Deklarasi Variabel Singkat
+
+Di dalam sebuah fungsi, perintah singkat `:=` bisa dipakai sebagai pengganti `var` dengan tipe implisit.
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    var i, j int = 1, 2
+    k := 3
+    c, python, java := true, false, "no!"
+
+    fmt.Println(i, j, k, c, python, java)
+}
+```
+
+Keluaran:
+
+```text
+1 2 3 true false no!
+```
+
+Di luar sebuah fungsi, setiap perintah harus dimulai dengan kata kunci (`var`, `func`, dst), sehingga `:=` **tidak bisa** digunakan di tingkat paket:
+
+```go
+package main
+
+// k := 3   // error: non-declaration statement outside function body
+
+var k = 3   // benar
+```
+
+Referensi: <https://go.dev/tour/basics/10>
