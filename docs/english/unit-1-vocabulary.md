@@ -30,7 +30,7 @@ Semua istilah di bawah adalah **kata benda (noun)**. Cara belajar yang disaranka
 
 ### Application (app) <Speak text="application" accents />
 
-**Noun (thing)** — software optimized to perform a specific task such as word processing, accounting, or web browsing.
+**Noun (thing)** <Speak text="Noun (thing)" accents /> — software optimized to perform a specific task such as word processing, accounting, or web browsing.
 
 > *"Examples of popular applications include Microsoft Word, Adobe Photoshop, and Mozilla Firefox."*
 
@@ -40,7 +40,7 @@ Semua istilah di bawah adalah **kata benda (noun)**. Cara belajar yang disaranka
 
 ### Component <Speak text="component" accents />
 
-**Noun (thing)** — any device internal to a computer, such as a hard disk drive, a usb port, or a motherboard.
+**Noun (thing)** <Speak text="Noun (thing)" accents /> — any device internal to a computer, such as a hard disk drive, a usb port, or a motherboard.
 
 > *"A hardware geek is constantly upgrading components in his computer to achieve more performance."*
 
@@ -50,7 +50,7 @@ Semua istilah di bawah adalah **kata benda (noun)**. Cara belajar yang disaranka
 
 ### Computer <Speak text="computer" accents />
 
-**Noun (thing)** — an electronic device which stores and processes information.
+**Noun (thing)** <Speak text="Noun (thing)" accents /> — an electronic device which stores and processes information.
 
 > *"A computer needs to be replaced or upgraded regularly or it will become obsolete."*
 
@@ -61,7 +61,7 @@ Semua istilah di bawah adalah **kata benda (noun)**. Cara belajar yang disaranka
 
 ### Data <Speak text="data" accents />
 
-**Noun (thing)** — literally meaning 'that which is given', this term refers to raw information of any kind.
+**Noun (thing)** <Speak text="Noun (thing)" accents /> — literally meaning 'that which is given', this term refers to raw information of any kind.
 
 > *"The network administrator was fired when he lost all the company data by accidentally formatting the wrong hard disk drive array."*
 
@@ -72,7 +72,7 @@ Semua istilah di bawah adalah **kata benda (noun)**. Cara belajar yang disaranka
 
 ### Database <Speak text="database" accents />
 
-**Noun (thing)** — an organized, electronic collection of information, optimized for fast access, and typically consisting of rows, columns, indexes, and keys.
+**Noun (thing)** <Speak text="Noun (thing)" accents /> — an organized, electronic collection of information, optimized for fast access, and typically consisting of rows, columns, indexes, and keys.
 
 > *"The international company stored their customer information in a central database in Brussels."*
 
@@ -82,7 +82,7 @@ Semua istilah di bawah adalah **kata benda (noun)**. Cara belajar yang disaranka
 
 ### Hardware <Speak text="hardware" accents />
 
-**Noun (thing)** — physical items which make up a computer system, including: monitors, keyboards, hard drives, and RAM.
+**Noun (thing)** <Speak text="Noun (thing)" accents /> — physical items which make up a computer system, including: monitors, keyboards, hard drives, and RAM.
 
 > *"Hardware today has become such a commodity that it's often more expensive to repair it than to replace it."*
 
@@ -93,7 +93,7 @@ Semua istilah di bawah adalah **kata benda (noun)**. Cara belajar yang disaranka
 
 ### Internet <Speak text="internet" accents />
 
-**Proper noun (thing)** — the largest known network, connecting millions of computers around the world.
+**Proper noun (thing)** <Speak text="Proper noun (thing)" accents /> — the largest known network, connecting millions of computers around the world.
 
 > *"Some people refer to the Internet as an information superhighway."*
 
@@ -104,7 +104,7 @@ Semua istilah di bawah adalah **kata benda (noun)**. Cara belajar yang disaranka
 
 ### Network <Speak text="network" accents />
 
-**Noun (thing)** — a connected group of computers, capable of sharing resources with each other.
+**Noun (thing)** <Speak text="Noun (thing)" accents /> — a connected group of computers, capable of sharing resources with each other.
 
 > *"The company network consisted of 3 servers, 95 workstations, and 10 printers."*
 
@@ -115,7 +115,7 @@ Semua istilah di bawah adalah **kata benda (noun)**. Cara belajar yang disaranka
 
 ### Peripheral <Speak text="peripheral" accents />
 
-**Noun (thing)** — an external device or "accessory" which extends the functionality of computer, such as a printer, monitor, microphone, or game controller.
+**Noun (thing)** <Speak text="Noun (thing)" accents /> — an external device or "accessory" which extends the functionality of computer, such as a printer, monitor, microphone, or game controller.
 
 > *"The woman hated the look of all the tangled wires behind her desk, which were caused by so many peripherals."*
 
@@ -126,7 +126,7 @@ Semua istilah di bawah adalah **kata benda (noun)**. Cara belajar yang disaranka
 
 ### Software <Speak text="software" accents />
 
-**Noun (thing)** — an organized set of computer instructions, such as applications (apps), operating systems (OS), or games.
+**Noun (thing)** <Speak text="Noun (thing)" accents /> — an organized set of computer instructions, such as applications (apps), operating systems (OS), or games.
 
 > *"The geek purchased new software for his computer almost every weekend."*
 
