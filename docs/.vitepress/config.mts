@@ -12,6 +12,7 @@ export default defineConfig({
       { text: 'Database', link: '/database/' },
       { text: 'PHP', link: '/php/' },
       { text: 'Go', link: '/golang/' },
+      { text: 'English', link: '/english/' },
       {
         text: 'Framework',
         items: [
@@ -34,6 +35,22 @@ export default defineConfig({
     ],
 
     sidebar: {
+      '/english/': [
+        {
+          text: 'English for IT',
+          items: [
+            { text: 'Overview', link: '/english/' }
+          ]
+        },
+        {
+          text: 'Unit 1 — Welcome to English for IT',
+          items: [
+            { text: 'Vocabulary', link: '/english/unit-1-vocabulary' },
+            { text: 'Reading (2 Bahasa)', link: '/english/unit-1-reading' },
+            { text: 'Quiz Kosakata', link: '/english/unit-1-quiz' }
+          ]
+        }
+      ],
       '/golang/': [
         {
           text: 'Tur Go',

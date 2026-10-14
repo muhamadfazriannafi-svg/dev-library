@@ -33,4 +33,6 @@ features:
     details: Instalasi, dasar sintaks, sampai goroutine dan channel.
   - title: Express
     details: Framework Node.js minimalis untuk routing dan middleware.
+  - title: English
+    details: Bahasa Inggris untuk bidang IT dari English4IT — kosakata, terjemahan, dan latihan.
 ---
