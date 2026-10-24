@@ -41,7 +41,8 @@ export default defineConfig({
           text: 'Java & Spring Boot',
           items: [
             { text: 'Overview', link: '/java/' },
-            { text: 'Java 25 & Spring Boot 3.5', link: '/java/spring-boot-java-25' }
+            { text: 'Java 25 & Spring Boot 3.5', link: '/java/spring-boot-java-25' },
+            { text: 'Task Management System (Fase 1-5)', link: '/java/task-management-system' }
           ]
         }
       ],
