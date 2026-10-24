@@ -31,6 +31,8 @@ features:
     details: Framework Vue full-stack, routing otomatis, SSR, dan Pug.
   - title: Go
     details: Instalasi, dasar sintaks, sampai goroutine dan channel.
+  - title: Java
+    details: Java 25 modern, Spring Boot 3.5, Virtual Threads, dan JPA best practices.
   - title: Express
     details: Framework Node.js minimalis untuk routing dan middleware.
   - title: English

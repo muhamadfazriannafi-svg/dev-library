@@ -12,6 +12,7 @@ export default defineConfig({
       { text: 'Database', link: '/database/' },
       { text: 'PHP', link: '/php/' },
       { text: 'Go', link: '/golang/' },
+      { text: 'Java', link: '/java/' },
       { text: 'English', link: '/english/' },
       {
         text: 'Framework',
@@ -35,6 +36,15 @@ export default defineConfig({
     ],
 
     sidebar: {
+      '/java/': [
+        {
+          text: 'Java & Spring Boot',
+          items: [
+            { text: 'Overview', link: '/java/' },
+            { text: 'Java 25 & Spring Boot 3.5', link: '/java/spring-boot-java-25' }
+          ]
+        }
+      ],
       '/english/': [
         {
           text: 'English for IT',
