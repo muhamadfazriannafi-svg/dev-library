@@ -4,37 +4,37 @@ layout: home
 
 hero:
   name: "DevLibrary"
-  text: "Programmer Sejak 2022"
-  tagline: "Catatan perjalanan sebagai Programmer dari 2022 sampai sekarang."
+  text: "Engineering Knowledge & Architecture Hub"
+  tagline: "Dokumentasi teknis, catatan arsitektur backend/frontend, dan referensi pengembangan perangkat lunak secara berkelanjutan."
   actions:
     - theme: brand
-      text: Mulai dari Git
+      text: Jelajahi Rubrik
       link: /git/
     - theme: alt
-      text: GitHub
-      link: /github/
+      text: Panduan Java & Spring
+      link: /java/
 
 features:
   - title: Git
-    details: Alur kerja harian, perintah dasar, branch, merge, sampai undo & recovery.
+    details: Alur kerja harian, perintah esensial, branch strategy, merge conflict, hingga undo & recovery.
   - title: GitHub
-    details: Fork, pull request, GitHub Pages, dan otomasi CI/CD dengan GitHub Actions.
+    details: Forking workflow, pull request, GitHub Pages, dan otomasi CI/CD menggunakan GitHub Actions.
   - title: Database
-    details: SQL, MySQL vs PostgreSQL, NoSQL, indexing, hingga best practice penamaan tabel.
+    details: Desain SQL, MySQL vs PostgreSQL, NoSQL, indexing strategy, hingga best practice penamaan.
   - title: PHP
-    details: PHP dasar dari sintaks, variabel, operator, array, sampai OOP.
+    details: Fondasi PHP modern, sintaks, tipe data, operator, array lanjutan, hingga pemograman OOP.
   - title: Laravel
-    details: Routing, Eloquent, repository pattern, queue & job, scheduler, Telescope, dan keamanan SQL injection.
+    details: Routing, Eloquent ORM, repository pattern, async queue & job, scheduler, dan pencegahan SQL injection.
   - title: Vue
-    details: Reaktivitas, component, Composition API, Vue Router, dan Pinia.
+    details: Reaktivitas, component architecture, Composition API, Vue Router, dan state management Pinia.
   - title: Nuxt
-    details: Framework Vue full-stack, routing otomatis, SSR, dan Pug.
+    details: Full-stack Vue framework, server-side rendering (SSR), routing otomatis, dan integrasi Pug.
   - title: Go
-    details: Instalasi, dasar sintaks, sampai goroutine dan channel.
-  - title: Java
-    details: Java 25 modern, Spring Boot 3.5, Virtual Threads, dan JPA best practices.
+    details: Setup lingkungan, dasar sintaks, konkurensi dengan goroutine dan channel, serta standar idiom.
+  - title: Java & Spring Boot
+    details: Implementasi Java 25, Spring Boot 3.5, Virtual Threads, JPA best practices, dan keamanan JWT/RBAC.
   - title: Express
-    details: Framework Node.js minimalis untuk routing dan middleware.
-  - title: English
-    details: Bahasa Inggris untuk bidang IT dari English4IT — kosakata, terjemahan, dan latihan.
+    details: Minimalist Node.js web framework untuk pembuatan REST API, routing, dan middleware.
+  - title: English for IT
+    details: Kursus ESP profesional dari English4IT — kosakata teknis, terjemahan, dan latihan interaktif.
 ---
