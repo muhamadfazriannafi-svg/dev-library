@@ -28,7 +28,8 @@ export default defineConfig({
             text: 'Frontend',
             items: [
               { text: 'Vue', link: '/vue/' },
-              { text: 'Nuxt', link: '/nuxt/' }
+              { text: 'Nuxt', link: '/nuxt/' },
+              { text: 'Tailwind CSS', link: '/tailwind/' }
             ]
           },
           {
@@ -42,6 +43,30 @@ export default defineConfig({
     ],
 
     sidebar: {
+      '/tailwind/': [
+        {
+          text: 'Tailwind CSS',
+          items: [
+            { text: 'Overview', link: '/tailwind/' },
+            { text: 'Instalasi & Setup', link: '/tailwind/instalasi' }
+          ]
+        },
+        {
+          text: 'Dasar',
+          items: [
+            { text: 'Utility Dasar', link: '/tailwind/utility-dasar' },
+            { text: 'Layout: Flexbox & Grid', link: '/tailwind/layout' },
+            { text: 'Responsif & State', link: '/tailwind/responsif' }
+          ]
+        },
+        {
+          text: 'Lanjutan',
+          items: [
+            { text: 'Kustomisasi & Komponen', link: '/tailwind/kustomisasi' },
+            { text: 'Praktik Terbaik', link: '/tailwind/best-practices' }
+          ]
+        }
+      ],
       '/threejs/': [
         {
           text: 'Three.js',
