@@ -29,6 +29,8 @@ features:
     details: Reaktivitas, component architecture, Composition API, Vue Router, dan state management Pinia.
   - title: Nuxt
     details: Full-stack Vue framework, server-side rendering (SSR), routing otomatis, dan integrasi Pug.
+  - title: Three.js
+    details: Dasar grafik 3D di browser — scene graph, geometri, cahaya, animasi, raycaster, post-processing, hingga studi kasus SIMRS 3D.
   - title: Go
     details: Setup lingkungan, dasar sintaks, konkurensi dengan goroutine dan channel, serta standar idiom.
   - title: Java & Spring Boot

@@ -30,12 +30,54 @@ export default defineConfig({
               { text: 'Vue', link: '/vue/' },
               { text: 'Nuxt', link: '/nuxt/' }
             ]
+          },
+          {
+            text: 'Grafik 3D',
+            items: [
+              { text: 'Three.js', link: '/threejs/' }
+            ]
           }
         ]
       },
     ],
 
     sidebar: {
+      '/threejs/': [
+        {
+          text: 'Three.js',
+          items: [
+            { text: 'Overview', link: '/threejs/' },
+            { text: 'Instalasi & Setup', link: '/threejs/instalasi' }
+          ]
+        },
+        {
+          text: 'Dasar',
+          items: [
+            { text: 'Arsitektur Inti', link: '/threejs/arsitektur' },
+            { text: 'Scene, Renderer, Kamera', link: '/threejs/scene-renderer-kamera' },
+            { text: 'Geometri & Material', link: '/threejs/geometri-material' },
+            { text: 'Mesh, Group & Transformasi', link: '/threejs/mesh-group-transform' },
+            { text: 'Cahaya & Bayangan', link: '/threejs/cahaya-bayangan' },
+            { text: 'Tekstur & Label Teks', link: '/threejs/tekstur-label' }
+          ]
+        },
+        {
+          text: 'Interaksi & Efek',
+          items: [
+            { text: 'Kontrol Kamera', link: '/threejs/kontrol-kamera' },
+            { text: 'Animasi & Game Loop', link: '/threejs/animasi' },
+            { text: 'Interaksi: Raycaster', link: '/threejs/raycaster' },
+            { text: 'Post-processing', link: '/threejs/post-processing' }
+          ]
+        },
+        {
+          text: 'Lanjutan',
+          items: [
+            { text: 'Performa & Memori', link: '/threejs/performa' },
+            { text: 'Studi Kasus: SIMRS 3D', link: '/threejs/studi-kasus-simrs3d' }
+          ]
+        }
+      ],
       '/java/': [
         {
           text: 'Java & Spring Boot',
